@@ -26,6 +26,10 @@ set ::env(VERILOG_FILES) "\
 
 set ::env(DESIGN_IS_CORE) 0
 
+set ::env(FP_PDN_AUTO_ADJUST) 0
+set ::env(FP_PDN_VOFFSET) 7
+set ::env(FP_PDN_HOFFSET) 7
+
 set ::env(CLOCK_PORT) "clk"
 set ::env(CLOCK_NET) "counter.clk"
 set ::env(CLOCK_PERIOD) "10"
